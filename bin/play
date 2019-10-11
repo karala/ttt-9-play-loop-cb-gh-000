@@ -8,6 +8,9 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
 # Make sure to execute #play below
-loop play(board)
-  turn()
+def play(board)
+  loop do
+    turn(board)
+  end
+  
 end
